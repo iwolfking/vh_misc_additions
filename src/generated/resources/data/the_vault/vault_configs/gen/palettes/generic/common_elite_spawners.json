@@ -1,0 +1,28 @@
+{
+  "tile_processors": [
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "minecraft:diamond_block",
+          "output": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 50,
+          "type": "weighted_target",
+          "target": "minecraft:diamond_block",
+          "output": {
+            "the_vault:companion_nest": 1,
+            "minecraft:air": 24
+          }
+        }
+      ]
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}
