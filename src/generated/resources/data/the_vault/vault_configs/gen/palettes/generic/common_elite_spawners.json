@@ -17,7 +17,7 @@
           "target": "minecraft:diamond_block",
           "output": {
             "the_vault:companion_nest": 1,
-            "minecraft:air": 24
+            "minecraft:air": 19
           }
         }
       ]
